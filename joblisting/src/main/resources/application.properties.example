@@ -1,0 +1,8 @@
+spring.application.name=joblisting
+
+# Copy this file to application.properties and fill in your real values.
+# Never commit application.properties — it is in .gitignore.
+spring.mongodb.uri=mongodb+srv://<db_username>:<db_password>@<cluster>.mongodb.net/<database>?appName=<appName>
+
+# Serve Swagger UI at the root path
+springdoc.swagger-ui.path=/
